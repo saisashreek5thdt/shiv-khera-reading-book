@@ -6,30 +6,25 @@
 
 @font-face {
   font-family: "footLight";
-  src: local("footLight") url("./fonts/FootlightMTProLight.otf")
-    format("opentype");
+  src: url("./fonts/FootlightMTProLight.woff2") format("woff2");
 }
 
 @font-face {
   font-family: "footLightRegular";
-  src: local("footLightRegular") url("./fonts/FootlightMTProRegular.otf")
-    format("opentype");
+  src: url("./fonts/FootlightMTProRegular.woff2") format("woff2");
 }
 
 @font-face {
   font-family: "footLightBold";
-  src: local("footLightBold") url("./fonts/FootlightMTProBold.otf")
-    format("opentype");
+  src: url("./fonts/FootlightMTProBold.woff2") format("woff2");
 }
 
 @font-face {
   font-family: "footLightExtraBold";
-  src: local("footLightExtraBold") url("./fonts/FootlightMTProExtraBold.otf")
-    format("opentype");
+  src: url("./fonts/FootlightMTProExtraBold.woff2") format("woff2");
 }
 
 @layer base {
-
   .headingText {
     font-family: "Mulish";
   }
@@ -39,7 +34,7 @@
   }
 
   .homeTextBold {
-    font-family: "footLightBold";
+    font-family: "footLightRegular";
   }
 
   .menuBG {
@@ -52,5 +47,4 @@
     background-size: cover;
     background-repeat: repeat-y;
   }
-
 }
