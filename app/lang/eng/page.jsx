@@ -46,14 +46,14 @@ function EngMenu() {
             <Chapters
               chapterNum={`Chapter 3`}
               chapterTitle={`Success`}
-              chapterDesc="Winning strategies"
+              chapterDesc="Winning Strategies"
               bgGrad="bg-gradient-to-r from-indigo-500 from-10% via-fuchsia-500 via-30% to-slate-50 to-90%"
               onChapterSelct={() => {}}
             />
             <Chapters
               chapterNum={`Chapter 4`}
               chapterTitle={`Attributes of Success`}
-              chapterDesc="Path of success"
+              chapterDesc="Path of Success"
             />
           </div>
         </div>
