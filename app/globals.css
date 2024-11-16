@@ -1,21 +1,56 @@
+@import url("https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200..1000;1,200..1000&display=swap");
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
-:root {
-  --background: #ffffff;
-  --foreground: #171717;
+@font-face {
+  font-family: "footLight";
+  src: local("footLight") url("./fonts/FootlightMTProLight.otf")
+    format("opentype");
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
+@font-face {
+  font-family: "footLightRegular";
+  src: local("footLightRegular") url("./fonts/FootlightMTProRegular.otf")
+    format("opentype");
+}
+
+@font-face {
+  font-family: "footLightBold";
+  src: local("footLightBold") url("./fonts/FootlightMTProBold.otf")
+    format("opentype");
+}
+
+@font-face {
+  font-family: "footLightExtraBold";
+  src: local("footLightExtraBold") url("./fonts/FootlightMTProExtraBold.otf")
+    format("opentype");
+}
+
+@layer base {
+
+  .headingText {
+    font-family: "Mulish";
   }
-}
 
-body {
-  color: var(--foreground);
-  background: var(--background);
-  font-family: Arial, Helvetica, sans-serif;
+  .homeText {
+    font-family: "footLightRegular";
+  }
+
+  .homeTextBold {
+    font-family: "footLightBold";
+  }
+
+  .menuBG {
+    background-color: #e1dcd8;
+    background-repeat: repeat-y !important;
+  }
+
+  .chapterBG {
+    background-image: url("../public/chapterBG.png");
+    background-size: cover;
+    background-repeat: repeat-y;
+  }
+
 }
