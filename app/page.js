@@ -25,7 +25,7 @@ export default function Home() {
           they do things differently
         </p>
         <div
-          className="mt-5 w-48 h-12 flex items-center justify-center text-3xl bg-slate-500 text-slate-50 font-medium headingText rounded-lg hover:shadow-lg cursor-pointer"
+          className="mt-5 homeText w-48 h-12 flex items-center justify-center text-3xl bg-slate-500 text-slate-50 font-medium headingText rounded-lg hover:shadow-lg cursor-pointer"
           onClick={btnHandler}
         >
           GET IN
