@@ -43,7 +43,10 @@ module.exports = {
           },
         },
       },
-    },
+      backgroundImage: {
+        'chapterBG': "url('../public/chapterBG.png')"
+      }
+    },    
   },
   plugins: [],
 };
