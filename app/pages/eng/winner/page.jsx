@@ -23,7 +23,7 @@ function EngWinner() {
 
   return (
     <>
-      <div className="w-full chapterBG overflow-hidden">
+      <div className="w-full bg-chapterBG overflow-hidden">
         <div className="h-screen flex flex-col gap-4 items-center justify-center homeTextBold font-medium">
           <h1 className="text-5xl text-slate-700">Importance of Attitude</h1>
           <h1 className="text-5xl text-slate-700">Winner&apos;s Edge</h1>
