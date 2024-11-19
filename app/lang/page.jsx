@@ -28,10 +28,10 @@ function Language() {
   return (
     <>
       <div className="flex flex-col items-center justify-center homeText">
-        <h1 className="mt-28 text-5xl font-medium text-slate-600">
+        <h1 className="mt-16 text-5xl font-medium text-slate-600">
           Please Select your Language
         </h1>
-        <div className="mt-24 flex flex-col gap-8 homeTextBold">
+        <div className="mt-16 flex flex-col gap-8 homeTextBold">
           {/* English Language 01 */}
           <h1
             className="text-6xl font-medium text-slate-700 cursor-pointer"
