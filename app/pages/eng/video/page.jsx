@@ -24,7 +24,7 @@ function EngVideo() {
 
   return (
     <>
-      <div className="w-full h-screen flex items-center justify-center bg-chapterBG">
+      <div className="w-full h-screen flex items-center justify-center bg-chapterBG chapterBG">
         <VideoPlayer src={`/Demo.mp4`} />
       </div>
       <FooterMain
