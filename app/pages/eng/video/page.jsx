@@ -24,7 +24,13 @@ function EngVideo() {
 
   return (
     <>
-      <div className="w-full h-screen flex items-center justify-center bg-chapterBG chapterBG">
+      <div
+        className="w-full h-screen flex items-center justify-center bg-chapterBG chapterBG"
+        style={{
+          backgroundImage: "url('/chapterBG.png')",
+          backgroundRepeat: "no-repeat",
+        }}
+      >
         <VideoPlayer src={`/Demo.mp4`} />
       </div>
       <FooterMain

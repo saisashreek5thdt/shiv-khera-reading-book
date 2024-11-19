@@ -23,7 +23,13 @@ function EngAbility() {
 
   return (
     <>
-      <div className="w-full bg-chapterBG chapterBG">
+      <div
+        className="w-full bg-chapterBG chapterBG"
+        style={{
+          backgroundImage: "url('/chapterBG.png')",
+          backgroundRepeat: "no-repeat",
+        }}
+      >
         <div className="h-screen flex flex-col gap-4 items-center justify-center homeTextBold font-medium">
           <h1 className="text-5xl text-slate-700">
             Ability teaches us how we do,
