@@ -47,8 +47,8 @@
   }
 
   .chapterBG {
-    background-image: url("../public/chapterBG.png");
+    /* background-image: url("../chapterBG.png"); */
+    background-repeat: no-repeat;
     background-size: cover;
-    background-repeat: repeat-y;
   }
 }
