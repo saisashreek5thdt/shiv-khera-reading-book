@@ -1,10 +1,20 @@
 "use client";
 import React from "react";
 import { useRouter } from "next/navigation";
+import FooterMain from "@/components/FooterMain";
 
 function EngAbility() {
-
   const router = useRouter();
+
+  const langIconHandler = (e) => {
+    e.preventDefault();
+    router.push("/menu");
+  };
+
+  const prevPageHandler = (e) => {
+    e.preventDefault();
+    router.push("/pages/eng/winner");
+  };
 
   const nextPageHandler = (e) => {
     e.preventDefault();
@@ -24,9 +34,13 @@ function EngAbility() {
           <h1 className="text-5xl text-slate-700">
             and attitude decides how well we do.
           </h1>
-          <h1 className="pt-10 text-5xl text-slate-600 homeText font-medium cursor-pointer" onClick={nextPageHandler}>Next</h1>
         </div>
       </div>
+      <FooterMain
+        onPrev={prevPageHandler}
+        onClick={langIconHandler}
+        onNext={nextPageHandler}
+      />
     </>
   );
 }

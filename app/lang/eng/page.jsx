@@ -3,9 +3,15 @@ import React from "react";
 import Image from "next/image";
 import { useRouter } from "next/navigation";
 import Chapters from "@/components/Chapters";
+import FooterMain from "@/components/FooterMain";
 
 function EngMenu() {
   const router = useRouter();
+
+  const langIconHandler = (e) => {
+    e.preventDefault();
+    router.push("/menu")
+  }
 
   const chapterOneHandler = (e) => {
     e.preventDefault();
@@ -58,6 +64,7 @@ function EngMenu() {
           </div>
         </div>
       </div>
+      <FooterMain onClick={langIconHandler} />
     </>
   );
 }

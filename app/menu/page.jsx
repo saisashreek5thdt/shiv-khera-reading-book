@@ -1,8 +1,19 @@
+"use client";
 import Image from "next/image";
 import React from "react";
 import Language from "../lang/page";
+import FooterLang from "@/components/FooterLang";
+import { useRouter } from "next/navigation";
 
 function Menu() {
+
+  const router = useRouter();
+
+  const langPageHandler = (e) => {
+    e.preventDefault();
+    router.push("/");
+  }
+
   return (
     <>
       <div className="min-h-screen bg-[#e1dcd8] menuBG">
@@ -20,6 +31,7 @@ function Menu() {
           </div>
         </div>
       </div>
+      <FooterLang onClick={langPageHandler} />
     </>
   );
 }

@@ -2,26 +2,36 @@
 import VideoPlayer from "@/components/VideoPlayer";
 import React from "react";
 import { useRouter } from "next/navigation";
+import FooterMain from "@/components/FooterMain";
 
 function EngVideo() {
   const router = useRouter();
 
-  const nextPageHandler = (e) => {
+  const langIconHandler = (e) => {
     e.preventDefault();
     router.push("/menu");
+  };
+
+  const prevPageHandler = (e) => {
+    e.preventDefault();
+    router.push("/pages/eng/ability");
+  };
+
+  const nextPageHandler = (e) => {
+    e.preventDefault();
+    router.push("/lang/eng");
   };
 
   return (
     <>
       <div className="w-full h-screen flex items-center justify-center chapterBG">
         <VideoPlayer src={`/Demo.mp4`} />
-        <h1
-          className="pt-10 text-5xl text-slate-600 homeText font-medium cursor-pointer"
-          onClick={nextPageHandler}
-        >
-          Menu
-        </h1>
       </div>
+      <FooterMain
+        onPrev={prevPageHandler}
+        onClick={langIconHandler}
+        onNext={nextPageHandler}
+      />
     </>
   );
 }
