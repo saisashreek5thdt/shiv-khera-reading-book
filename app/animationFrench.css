@@ -1,0 +1,201 @@
+.textType1 {
+  overflow: hidden;
+  white-space: nowrap;
+  animation: typewriter1 8s steps(100) 0.5s 1 normal both,
+    cursorblink 0.5s infinite;
+}
+
+.textType2 {
+  overflow: hidden;
+  white-space: nowrap;
+  animation: typewriter2 8s steps(100) 0.5s 1 normal both,
+    cursorblink 0.5s infinite;
+}
+
+.textType3 {
+  overflow: hidden;
+  white-space: nowrap;
+  animation: typewriter3 8s steps(180) 0.5s 1 normal both,
+    cursorblink 0.5s infinite;
+}
+
+.textType4 {
+  overflow: hidden;
+  white-space: nowrap;
+  animation: typewriter4 8s steps(180) 0.5s 1 normal both,
+    cursorblink 0.5s infinite;
+}
+
+.textType5 {
+  overflow: hidden;
+  white-space: nowrap;
+  animation: typewriter5 8s steps(100) 0.5s 1 normal both,
+    cursorblink 0.5s infinite;
+}
+
+.textType6 {
+  overflow: hidden;
+  white-space: nowrap;
+  animation: typewriter6 8s steps(100) 0.5s 1 normal both,
+    cursorblink 0.5s infinite;
+}
+
+@keyframes typewriter1 {
+  0% {
+    opacity: 0;
+  }
+  25% {
+    opacity: 0.2;
+  }
+  50% {
+    opacity: 0.5;
+  }
+  80% {
+    opacity: 0.8;
+  }
+  100% {
+    opacity: 1;
+  }
+  from {
+    width: 0;
+  }
+
+  to {
+    width: 10.4em;
+  }
+}
+
+@keyframes typewriter2 {
+  0% {
+    opacity: 0;
+  }
+  25% {
+    opacity: 0.2;
+  }
+  50% {
+    opacity: 0.5;
+  }
+  80% {
+    opacity: 0.8;
+  }
+  100% {
+    opacity: 1;
+  }
+  from {
+    width: 0;
+  }
+
+  to {
+    width: 10.5em;
+  }
+}
+
+@keyframes typewriter3 {
+  0% {
+    opacity: 0;
+  }
+  25% {
+    opacity: 0.2;
+  }
+  50% {
+    opacity: 0.5;
+  }
+  80% {
+    opacity: 0.8;
+  }
+  100% {
+    opacity: 1;
+  }
+  from {
+    width: 0;
+  }
+
+  to {
+    width: 21.6em;
+  }
+}
+
+@keyframes typewriter4 {
+  0% {
+    opacity: 0;
+  }
+  25% {
+    opacity: 0.2;
+  }
+  50% {
+    opacity: 0.5;
+  }
+  80% {
+    opacity: 0.8;
+  }
+  100% {
+    opacity: 1;
+  }
+  from {
+    width: 0;
+  }
+
+  to {
+    width: 21.1em;
+  }
+}
+
+@keyframes typewriter5 {
+  0% {
+    opacity: 0;
+  }
+  25% {
+    opacity: 0.2;
+  }
+  50% {
+    opacity: 0.5;
+  }
+  80% {
+    opacity: 0.8;
+  }
+  100% {
+    opacity: 1;
+  }
+  from {
+    width: 0;
+  }
+
+  to {
+    width: 16.1em;
+  }
+}
+
+@keyframes typewriter6 {
+  0% {
+    opacity: 0;
+  }
+  25% {
+    opacity: 0.2;
+  }
+  50% {
+    opacity: 0.5;
+  }
+  80% {
+    opacity: 0.8;
+  }
+  100% {
+    opacity: 1;
+  }
+  from {
+    width: 0;
+  }
+
+  to {
+    width: 6.1em;
+  }
+}
+
+@keyframes cursorblink {
+  from {
+    border-right: 1px solid #dedede;
+  }
+
+  to {
+    border-right: 1px solid #666;
+  }
+}
