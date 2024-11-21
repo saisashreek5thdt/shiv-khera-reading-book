@@ -5,60 +5,63 @@
 @tailwind utilities;
 
 @font-face {
-  font-family: 'Footlight MT Pro';
-  src: url('fonts/FootlightMTPro-Bold.eot');
-  src: url('fonts/FootlightMTPro-Bold.eot?#iefix') format('embedded-opentype'),
-      url('fonts/FootlightMTPro-Bold.woff2') format('woff2'),
-      url('fonts/FootlightMTPro-Bold.woff') format('woff'),
-      url('fonts/FootlightMTPro-Bold.ttf') format('truetype');
+  font-family: "Footlight MT Pro";
+  src: url("fonts/FootlightMTPro-Bold.eot");
+  src: url("fonts/FootlightMTPro-Bold.eot?#iefix") format("embedded-opentype"),
+    url("fonts/FootlightMTPro-Bold.woff2") format("woff2"),
+    url("fonts/FootlightMTPro-Bold.woff") format("woff"),
+    url("fonts/FootlightMTPro-Bold.ttf") format("truetype");
   font-weight: 300;
   font-style: normal;
   font-display: swap;
 }
 
 @font-face {
-  font-family: 'Footlight MT Pro';
-  src: url('fonts/FootlightMTPro-ExtraBold.eot');
-  src: url('fonts/FootlightMTPro-ExtraBold.eot?#iefix') format('embedded-opentype'),
-      url('fonts/FootlightMTPro-ExtraBold.woff2') format('woff2'),
-      url('fonts/FootlightMTPro-ExtraBold.woff') format('woff'),
-      url('fonts/FootlightMTPro-ExtraBold.ttf') format('truetype');
+  font-family: "Footlight MT Pro";
+  src: url("fonts/FootlightMTPro-ExtraBold.eot");
+  src: url("fonts/FootlightMTPro-ExtraBold.eot?#iefix")
+      format("embedded-opentype"),
+    url("fonts/FootlightMTPro-ExtraBold.woff2") format("woff2"),
+    url("fonts/FootlightMTPro-ExtraBold.woff") format("woff"),
+    url("fonts/FootlightMTPro-ExtraBold.ttf") format("truetype");
   font-weight: 300;
   font-style: normal;
   font-display: swap;
 }
 
 @font-face {
-  font-family: 'Footlight MT Pro';
-  src: url('fonts/FootlightMTPro-Light.eot');
-  src: url('fonts/FootlightMTPro-Light.eot?#iefix') format('embedded-opentype'),
-      url('fonts/FootlightMTPro-Light.woff2') format('woff2'),
-      url('fonts/FootlightMTPro-Light.woff') format('woff'),
-      url('fonts/FootlightMTPro-Light.ttf') format('truetype');
+  font-family: "Footlight MT Pro";
+  src: url("fonts/FootlightMTPro-Light.eot");
+  src: url("fonts/FootlightMTPro-Light.eot?#iefix") format("embedded-opentype"),
+    url("fonts/FootlightMTPro-Light.woff2") format("woff2"),
+    url("fonts/FootlightMTPro-Light.woff") format("woff"),
+    url("fonts/FootlightMTPro-Light.ttf") format("truetype");
   font-weight: 300;
   font-style: normal;
   font-display: swap;
 }
 
 @font-face {
-  font-family: 'Footlight MT Pro';
-  src: url('fonts/FootlightMTPro-LightItalic.eot');
-  src: url('fonts/FootlightMTPro-LightItalic.eot?#iefix') format('embedded-opentype'),
-      url('fonts/FootlightMTPro-LightItalic.woff2') format('woff2'),
-      url('fonts/FootlightMTPro-LightItalic.woff') format('woff'),
-      url('fonts/FootlightMTPro-LightItalic.ttf') format('truetype');
+  font-family: "Footlight MT Pro";
+  src: url("fonts/FootlightMTPro-LightItalic.eot");
+  src: url("fonts/FootlightMTPro-LightItalic.eot?#iefix")
+      format("embedded-opentype"),
+    url("fonts/FootlightMTPro-LightItalic.woff2") format("woff2"),
+    url("fonts/FootlightMTPro-LightItalic.woff") format("woff"),
+    url("fonts/FootlightMTPro-LightItalic.ttf") format("truetype");
   font-weight: 300;
   font-style: italic;
   font-display: swap;
 }
 
 @font-face {
-  font-family: 'Footlight MT Pro';
-  src: url('fonts/FootlightMTPro-Regular.eot');
-  src: url('fonts/FootlightMTPro-Regular.eot?#iefix') format('embedded-opentype'),
-      url('fonts/FootlightMTPro-Regular.woff2') format('woff2'),
-      url('fonts/FootlightMTPro-Regular.woff') format('woff'),
-      url('fonts/FootlightMTPro-Regular.ttf') format('truetype');
+  font-family: "Footlight MT Pro";
+  src: url("fonts/FootlightMTPro-Regular.eot");
+  src: url("fonts/FootlightMTPro-Regular.eot?#iefix")
+      format("embedded-opentype"),
+    url("fonts/FootlightMTPro-Regular.woff2") format("woff2"),
+    url("fonts/FootlightMTPro-Regular.woff") format("woff"),
+    url("fonts/FootlightMTPro-Regular.ttf") format("truetype");
   font-weight: 300;
   font-style: normal;
   font-display: swap;
@@ -86,5 +89,5 @@
     /* background-image: url("../chapterBG.png"); */
     background-repeat: no-repeat;
     background-size: cover;
-  }
+  }  
 }
